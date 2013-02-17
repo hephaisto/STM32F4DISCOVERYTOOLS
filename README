@@ -1,0 +1,16 @@
+STM32F4DISCOVERYTOOLS
+=====================
+
+Installer script and Makefile for the STM32F4Discovery board.
+
+All files in this project are licensed under CC BY 3.0:
+http://creativecommons.org/licenses/by/3.0/deed.en_US
+
+
+The installer script that does all the following:
+- download the Code Sourcery ARM toolchain
+- download and compile stlink (not from ST!)
+- add udev rules for stlink (requires root access)
+- download the StandardPeripherals Library from ST
+- create a template for new projects
+
