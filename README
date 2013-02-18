@@ -6,6 +6,13 @@ Installer script and Makefile for the STM32F4Discovery board.
 All files in this project are licensed under CC BY 3.0:
 http://creativecommons.org/licenses/by/3.0/deed.en_US
 
+REQUIREMENTS
+
+- wget
+- GNU autotools
+- tar
+- zip
+- requirements by the packages - see there for more information
 
 The installer script does all the following:
 - download the Code Sourcery ARM toolchain
@@ -14,3 +21,14 @@ The installer script does all the following:
 - download the StandardPeripherals Library from ST
 - create a template for new projects
 
+INSTRUCTIONS
+
+1) clone the repository (or copy the files manually)
+2) run installcmdline.sh
+3) open sample/Makefile and add the repository base path on the line
+INSTALLPATH="[REPLACE THIS WITH INSTALLATION PATH!]"
+4) run "make" to compile the sample, "make program" to copy it to the board
+
+The sample directory can be moved to any location in the file system as long as INSTALLPATH is set correctly.
+
+Additional options are documented in the makefile.
