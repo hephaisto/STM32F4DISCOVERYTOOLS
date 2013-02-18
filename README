@@ -3,8 +3,11 @@ STM32F4DISCOVERYTOOLS
 
 Installer script and Makefile for the STM32F4Discovery board.
 
-All files in this project are licensed under CC BY 3.0:
+All files in this repository are licensed under CC BY 3.0:
 http://creativecommons.org/licenses/by/3.0/deed.en_US
+
+This script downloads files from various sources. Some of these files may copyrighted by the respective owners.
+Make sure to read all license files present in the downloaded tarballs!
 
 REQUIREMENTS
 
@@ -25,9 +28,9 @@ INSTRUCTIONS
 
 1) clone the repository (or copy the files manually)
 2) run installcmdline.sh
-3) open sample/Makefile and add the repository base path on the line
+3) open sample/Makefile and add the repository base path (absolute path) on the line
 INSTALLPATH="[REPLACE THIS WITH INSTALLATION PATH!]"
-4) run "make" to compile the sample, "make program" to copy it to the board
+4) go to the sample folder and run "make" to compile the sample, "make program" to copy it to the board
 
 The sample directory can be moved to any location in the file system as long as INSTALLPATH is set correctly.
 
