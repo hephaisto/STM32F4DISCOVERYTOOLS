@@ -1,6 +1,6 @@
 #!/bin/sh
 wget https://sourcery.mentor.com/sgpp/lite/arm/portal/package9740/public/arm-none-eabi/arm-2011.09-69-arm-none-eabi-i686-pc-linux-gnu.tar.bz2
-tar xvf /arm-2011.09-69-arm-none-eabi-i686-pc-linux-gnu.tar.bz2
+tar xvf arm-2011.09-69-arm-none-eabi-i686-pc-linux-gnu.tar.bz2
 git clone git://github.com/texane/stlink.git
 cd stlink
 ./autogen.sh
