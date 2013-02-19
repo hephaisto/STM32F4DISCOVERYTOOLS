@@ -45,7 +45,7 @@ OBJCOPY=$(ARMPATH)/bin/arm-none-eabi-objcopy
 STFLASH=$(STLINKPATH)/st-flash
 
 ARMINCLUDES=-I"$(ARMPATH)/arm-none-eabi/include" -I"$(ARMPATH)/lib/gcc/arm-none-eabi/4.6.1/include" -I"$(ARMPATH)/lib/gcc/arm-none-eabi/4.6.1/include-fixed"
-STDLIBINCLUDES=-I"$(STDLIBPATH)/Libraries/CMSIS/Include" -I"$(STDLIBPATH)/Libraries/CMSIS/Device/ST/STM32F4xx/Include" -I"$(STDLIBPATH)/Libraries/STM32F4xx_StdPeriph_Driver/inc"
+STDLIBINCLUDES=-I"$(STDLIBPATH)/Libraries/CMSIS/Include" -I"$(STDLIBPATH)/Libraries/CMSIS/ST/STM32F4xx/Include" -I"$(STDLIBPATH)/Libraries/STM32F4xx_StdPeriph_Driver/inc"
 
 LIBPATHS= -L$(ARMPATH)/arm-none-eabi/lib -L$(ARMPATH)/lib/gcc/arm-none-eabi/4.6.1/thumb
 LDFLAGS= -T stm32_flash.ld $(LIBPATHS) $(LIBS) $(OBJ)
