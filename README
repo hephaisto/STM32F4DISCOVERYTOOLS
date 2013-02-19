@@ -28,10 +28,10 @@ INSTRUCTIONS
 
 1) clone the repository (or copy the files manually)
 2) run installcmdline.sh
-3) open sample/Makefile and add the repository base path (absolute path) on the line
-INSTALLPATH="[REPLACE THIS WITH INSTALLATION PATH!]"
+3) relogin (to use environment variable) or run "export DISCOVERYPATH=`pwd`"
 4) go to the sample folder and run "make" to compile the sample, "make program" to copy it to the board
 
-The sample directory can be moved to any location in the file system as long as INSTALLPATH is set correctly.
+This script adds the environment variable "DISCOVERYPATH" in ~/.profile
+If you use a different location for your shell startup, you have to copy the corresponding lines to the appropriate file.
 
 Additional options are documented in the makefile.
