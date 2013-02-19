@@ -18,5 +18,5 @@ cp ./STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Include/stm32f4xx.
 cp ./STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/TrueSTUDIO/STM32F4-Discovery_Demo/stm32_flash.ld sample/
 cp ./STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/stm32f4xx_conf.h sample/
 
-echo 'DISCOVERYPATH="`pwd`"' >> ~/.profile
+echo DISCOVERYPATH="`pwd`" >> ~/.profile
 echo 'export DISCOVERYPATH' >> ~/.profile
