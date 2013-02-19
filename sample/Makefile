@@ -20,11 +20,10 @@ DEPS=
 USESTDLIBS= rcc
 
 # paths for compilers and libraries
-# if you used the installer script, just point INSTALLPATH to the directory you ran it in
-INSTALLPATH="[REPLACE THIS WITH INSTALLATION PATH!]"
-ARMPATH=$(INSTALLPATH)/arm-2011.09
-STDLIBPATH=$(INSTALLPATH)/STM32F4xx_DSP_StdPeriph_Lib_V1.1.0
-STLINKPATH=$(INSTALLPATH)/stlink
+# DISCOVERYPATH is set as environment variable
+ARMPATH=$(DISCOVERYPATH)/arm-2011.09
+STDLIBPATH=$(DISCOVERYPATH)/STM32F4-Discovery_FW_V1.1.0
+STLINKPATH=$(DISCOVERYPATH)/stlink
 
 # ----- DONT CHANGE CODE AFTER THIS LINE -----
 
