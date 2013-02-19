@@ -17,7 +17,7 @@ DEPS=
 # possible values are: adc can crc cryp cryp_aes cryp_des cryp_tdes dac dgbmcu dcmi dma exti flash fsmc gpio hash hash_md5 hash_sha1 i2c iwdg pwr rcc rng rtc sdio spi syscfg tim usart wwdg
 # rcc is nearly always necessary to enable clocks for peripheral interfaces
 # separate multiple entries by spaces
-USESTDLIBS= rcc
+USESTDLIBS= rcc gpio
 
 # paths for compilers and libraries
 # DISCOVERYPATH is set as environment variable
