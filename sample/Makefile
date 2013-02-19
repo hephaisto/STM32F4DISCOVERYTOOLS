@@ -35,7 +35,7 @@ STDLIBOBJ=$(patsubst %,stm32f4xx_%.o,$(USESTDLIBS))
 OBJ=$(STDLIBOBJ)\
 misc.o \
 system_stm32f4xx.o \
-startup_stm32f40xx.o \
+startup_stm32f4xx.o \
 $(SRC:.c=.o)
 
 CC=$(ARMPATH)/bin/arm-none-eabi-gcc

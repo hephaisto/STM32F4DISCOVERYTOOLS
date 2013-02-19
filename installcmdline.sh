@@ -12,7 +12,7 @@ cd ..
 wget -c http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/firmware/stsw-stm32068.zip
 unzip stsw-stm32068.zip
 
-cp ./STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s sample/
+cp ./STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f4xx.s sample/
 cp ./STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c sample/
 cp ./STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Include/stm32f4xx.h sample/
 cp ./STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/TrueSTUDIO/STM32F4-Discovery_Demo/stm32_flash.ld sample/
